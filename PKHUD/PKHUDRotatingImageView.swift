@@ -17,6 +17,5 @@ open class PKHUDRotatingImageView: PKHUDSquareBaseView, PKHUDAnimating {
         imageView.layer.add(PKHUDAnimation.continuousRotation, forKey: "progressAnimation")
     }
 
-    public func stopAnimation() {
-    }
+
 }
